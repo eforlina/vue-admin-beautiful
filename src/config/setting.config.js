@@ -18,7 +18,7 @@ const setting = {
       ? 'vab-mock-server'
       : 'vab-mock-server',
   //标题 （包括初次加载雪花屏的标题 页面的标题 浏览器的标题）
-  title: 'vue-admin-beautiful-pro',
+  title: '智能理赔系统',
   //简写
   abbreviation: 'vab',
   //开发环境端口号
@@ -26,9 +26,9 @@ const setting = {
   //版本号
   version: process.env.VUE_APP_VERSION,
   //这一项非常重要！请务必保留MIT协议下package.json及copyright作者信息 即可免费商用，不遵守此项约定你将无法使用该框架，如需自定义版权信息请联系QQ1204505056
-  copyright: 'vab',
+  copyright: '',
   //是否显示页面底部自定义版权信息
-  footerCopyright: true,
+  footerCopyright: false,
   //是否显示顶部进度条
   progressBar: true,
   //缓存路由的最大数量
@@ -70,6 +70,6 @@ const setting = {
   //代码生成机生成在view下的文件夹名称
   templateFolder: 'project',
   //是否显示终端donation打印
-  donation: true,
+  donation: false,
 }
 module.exports = setting
